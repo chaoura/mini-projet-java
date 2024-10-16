@@ -1,6 +1,6 @@
 public class Contact {
-    private  String name;
-    private  String phoneNumber; // constructor pour intialisé les valeurs
+    private final String name;
+    private final String phoneNumber; // constructor pour intialisé les valeurs
     public Contact(String name, String phoneNumber) {
         this.phoneNumber = phoneNumber;
         this.name = name;
