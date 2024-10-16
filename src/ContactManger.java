@@ -5,8 +5,8 @@ public class ContactManger {
   public ContactManger(){
       contacts = new ArrayList<>();
   }
-  public void addContact(String name , String phoneNumber){
-      Contact contact = new Contact( name , phoneNumber);
+  public void addContact(String name , String phoneNumber, String email){
+      Contact contact = new Contact( name , phoneNumber,email);
       contacts.add(contact);
       System.out.println("contact ajouter "+contact);
   }

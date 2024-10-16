@@ -25,7 +25,9 @@ ContactManger manager = new ContactManger();
                     String name = scanner.nextLine();
                     System.out.print("Numéro de téléphone : ");
                     String phoneNumber = scanner.nextLine();
-                    manager.addContact(name, phoneNumber);
+                    System.out.print("Numéro de téléphone : ");
+                    String email = scanner.nextLine();
+                    manager.addContact(name, phoneNumber,email);
                     break;
                 case 2:
                     manager.listContacts();
